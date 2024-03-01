@@ -1,0 +1,149 @@
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 800
+
+.eb-garamond-topright h1 {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.cinzel-label {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.views{
+  display: flex;
+  height:100%;
+  padding:20px 0;
+}
+#logo-img{
+  width:65%;
+  height:200px;
+  opacity:0.6;
+}
+.left{
+  width:35%;
+  background-image: url('pics/chicken1.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+  }
+.bottomleft{
+color:#fff;
+align-items: flex-end;
+justify-content: flex-end;
+}
+.bottomleft p{
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
+}
+.bottomleft a{
+  color:#fff;
+}
+.right{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+}
+.topright{
+height:30%;
+  background-color: wheat;
+  color:wheat;
+  margin:0;
+  padding:0;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.topright h1{
+  text-align: center;
+  font-size: 4rem;
+  background-image: url('pics/prince-abid-TWbkojYMhAg-unsplash.jpg');
+  background-size:cover;
+  height: 100%;
+  font-family:
+}
+.midright{
+display: flex;
+  background-color: olive;
+  color: #fff;
+  height:40%;
+justify-content: center;
+
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.bottomright{
+  height: 30%;
+
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
+  padding: 10px;
+}
+.mailntele{
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
+  padding: 10px;
+}
+.passwords{
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
+  padding: 10px;
+}
+.btn1{
+  background: #4d8f8b;
+  padding:10px;
+  border-radius: 7px;
+  margin:30px 40px 10px 40px;
+  color:#fff;
+  font-size: 1.3rem;
+}
+.btn1:hover{
+  color: #4d8f8b;
+  background: #fff;
+}
+label{
+  padding:5px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+input{
+  padding:10px;
+  background:wheat;
+  border:2px #E5E7EB groove;
+}
+input:focus{
+  border:lightblue 4px groove;
+  box-shadow: 1px 1px 1px 1px lightblue;
+
+}
+input:valid{
+  border-color: green;
+}
+input:invalid{
+  border-color: red;
+}
